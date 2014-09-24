@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewApp", "InterviewApp\InterviewApp.csproj", "{94095267-0ADD-4E1D-BC18-8907E19BDCDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewApp.Tests", "InterviewApp.Tests\InterviewApp.Tests.csproj", "{DCBC455E-3081-468C-BA0A-1CE4074E5DD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94095267-0ADD-4E1D-BC18-8907E19BDCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94095267-0ADD-4E1D-BC18-8907E19BDCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94095267-0ADD-4E1D-BC18-8907E19BDCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94095267-0ADD-4E1D-BC18-8907E19BDCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBC455E-3081-468C-BA0A-1CE4074E5DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBC455E-3081-468C-BA0A-1CE4074E5DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBC455E-3081-468C-BA0A-1CE4074E5DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBC455E-3081-468C-BA0A-1CE4074E5DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

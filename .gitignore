@@ -1,0 +1,7 @@
+InterviewApp.Tests/bin/
+InterviewApp.Tests/obj/
+*.suo
+InterviewApp/bin/
+*.user
+*.cache
+InterviewApp/obj/
