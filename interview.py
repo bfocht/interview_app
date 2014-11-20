@@ -13,6 +13,24 @@ source = {
 
 destination = {} 
 
+#create closure
+def makeCopier(source, destination):
+	def copy(name, destName=None):
+		paths = name.split('.')
+		if len(paths)>1 and paths[0] in source.keys():
+			 	if type(source[paths[0]]) == list:
+			 		destination[destName] = source[paths[0]][int(paths[1])]
+			 	elif paths[1] in source[paths[0]].keys():
+					if not destName:
+						destName=paths[-1]
+					destination[destName] = source[paths[0]][paths[1]]
+		
+		if  name in source.keys():
+			if destName == None:
+				destName=name
+			destination[destName] = source[name]
+	return copy
+
 copy = makeCopier(source, destination) 
 
  # Copy with no second argument takes the last path component. 
