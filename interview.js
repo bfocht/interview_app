@@ -28,32 +28,6 @@ copy('contact.phone', 'phoneNumber');
 copy('contact.emails.0', 'primaryEmail'); 
 copy('contact.emails.1', 'secondaryEmail'); 
 
-
-function makeCopier(source, destination)
-{
-    
-    function copyIt(sourcePath, destinationPath)
-    {
-        pathSplit = sourcePath.split('.');
-        if ((pathSplit[0] in source) == false) {
-            return;
-        }
-        
-        if (destinationPath == null)
-        {
-            destination[sourcePath]= source[sourcePath];
-            
-            destination[pathSplit[1]]= source[pathSplit[0]][pathSplit[1]];
-        }
-        else
-        {
-           destination[destinationPath]= source[pathSplit[0]][pathSplit[1]];
-        }
-        
-    }
-    return copyIt
-}
-
 console.log(JSON.stringify(destination, undefined, 2)); 
 
 // Expected output 
